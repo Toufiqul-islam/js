@@ -1,5 +1,7 @@
+/*
 let a=10 ;
 let b=30;
+*/
 /*
 if(a>=95){
     console.table('A++');
@@ -71,3 +73,20 @@ for(let i=1; i<20; i++){
     console.log(a);
 }
 */
+/*function*/
+/*
+function oddEven(x){
+    if(x%2==0){
+        console.log('x is even');
+    }
+    else console.log('x is odd');
+}
+oddEven(8);
+*/
+function oddEven(x,y){
+    for(let x; x<y; x++){
+        a = x/3;
+        console.log(a);
+    }
+}
+oddEven(4,8);
