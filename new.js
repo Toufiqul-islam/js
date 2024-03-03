@@ -82,11 +82,69 @@ function oddEven(x){
     else console.log('x is odd');
 }
 oddEven(8);
-*/
-function oddEven(x,y){
+function oddEven(x,y,z){
     for(let x; x<y; x++){
         a = x/3;
         console.log(a);
     }
 }
 oddEven(4,8);
+*/
+function toufiq(x,y,z){
+    if(x>y>z && x>z>y){
+        console.log('x is bigest');
+    }else console.log('x is bigest')
+    if(y>z>x && y>x>z){
+        console.log('y is bigest');
+    }
+    if(z>x>y && z>y>x){
+        console.log('z is bigest');
+    }
+}
+toufiq(4,5,6)
+
+/*
+function toufiq(x,y,z){
+    let max = math.max(x,y,z);
+    let min = math.min(x,y,z);
+    let addEven = {
+        x: x % 2 === 0 ? 'even' : 'odd',
+        y: y % 2 === 0 ? 'even' : 'odd',
+        z: z % 2 === 0 ? 'even' : 'odd'
+    }
+    console.log(`maximum value: ${max}`);
+    console.log(`minimum value: ${min}`);
+    console.log(`x is: ${addEven.x}`);
+    console.log(`y is: ${addEven.y}`);
+    console.log(`z is: ${addEven.z}`);
+}
+toufiq(10,5,8)*/
+/*Recursion*/
+/*Closures*/
+/*
+function oddEven(x,y){
+    function checker(){
+        if(x<y){
+            return console.log('y is big');
+        }
+        else return console.log('x is big');
+    }
+    checker();
+    if(x%2==0){
+        console.log('x is even');
+    }
+    else console.log('x is odd');
+}
+oddEven(8,24);
+*/
+/*
+
+*/
+/*
+
+*/
+/*
+
+*/
+
+
