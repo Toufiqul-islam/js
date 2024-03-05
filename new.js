@@ -90,6 +90,7 @@ function oddEven(x,y,z){
 }
 oddEven(4,8);
 */
+/*
 function toufiq(x,y,z){
     if(x>y>z && x>z>y){
         console.log('x is bigest');
@@ -102,6 +103,8 @@ function toufiq(x,y,z){
     }
 }
 toufiq(4,5,6)
+*/
+
 
 /*
 function toufiq(x,y,z){
@@ -138,13 +141,69 @@ function oddEven(x,y){
 oddEven(8,24);
 */
 /*
-
+function ternarychack(x){
+    (x%2==0)? console.log('even'):console.log('odd')
+}
+ternarychack(5);
 */
 /*
-
+function ternarychack(x){
+    (x%2==0)? console.log('even'):console.log('odd')
+}
+ternarychack(5);
 */
 /*
-
+let ternar =function ternarycheck(x){
+    (x%2==0)?console.log('even'):console.log('odd')
+}
+    ternar(5);
+let ternary =(x)=>{
+    (x%2==0)?console.log('even'):console.log('odd')
+}
+    ternary(6)
 */
-
-
+/*
+ternary operator
+*/
+/*
+let a=80;
+let b=10;
+let c=3;
+a>b?
+    console.log("a is Greter")
+    :
+    (
+        b>c?
+        console.log("b is Greater")
+        :
+        console.log("C is greater")
+    )
+*/
+/*
+let rohim=40;
+let korim=35;
+let monir=45;
+rohim>korim ?
+console.log(` ${rohim} rohim is greater`)
+:
+(
+    korim>monir?
+    console.log(`${korim} korim is greater`)
+    :
+    console.log(`${monir} monit is greater`)
+)
+*/
+/*
+function myfunction( let i=0; i<10; i++ ){
+    return i*6;
+}
+let b=myfunction(6)
+console.log(`${b}`)*/
+/*
+function myfunction (a){
+    for(let i=1; i<21; i=i+2){
+    console.log(`${a}*${i}=${i*a}`);
+}
+}
+myfunction(10)
+*/
