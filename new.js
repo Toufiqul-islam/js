@@ -207,3 +207,58 @@ function myfunction (a){
 }
 myfunction(10)
 */
+/*
+class polygon{
+    constructor(height, width, dapth){
+        this.area = height * width;
+        this.par = height / dapth;
+    }
+}
+console.log(new polygon(4,3,2).par);
+console.log(new polygon(4,3).area);
+*/
+/*
+class farm{
+    constructor(cow, a=20){
+        this.milk = cow * a;
+    }
+}
+console.log(new farm(50).milk);
+*/
+/*
+class factory{
+    constructor(a, x=5, y=4, ){
+        this.carx = a/x;
+        this.cary = a/y;
+    }
+}
+console.log(new factory(100).carx);
+console.log(new factory(100).cary);
+*/
+class Car{
+    constructor(piece){
+        this.piece;
+        this.car;
+    }
+    bmw(piece){
+        let tyre = piece/5;
+        let look = piece/3;
+        let str = piece;
+        if(tyre<look && look< str){
+            this.car =console.log (tyre);
+        }
+        else this.car = console.log('not enough tyre');
+    };
+    audi(piece){
+        let tyre1 = piece/4;
+        let look1 = piece/4;
+        let str1 = piece;
+        if(tyre1<=look1 && look1< str1){
+            this.car = console.log(tyre1);
+        }
+        else this.car = console.log('invalid no');
+    };
+}
+const BMW = new Car;
+const AUD = new Car;
+console.log(AUD.audi(100),BMW.bmw(100));
