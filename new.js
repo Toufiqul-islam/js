@@ -235,6 +235,7 @@ class factory{
 console.log(new factory(100).carx);
 console.log(new factory(100).cary);
 */
+/*
 class Car{
     constructor(piece){
         this.piece;
@@ -262,3 +263,54 @@ class Car{
 const BMW = new Car;
 const AUD = new Car;
 console.log(AUD.audi(100),BMW.bmw(100));
+*/
+//09.03.2023
+//using promises
+//setTimeout
+//setinterval
+//Regular Expression
+//H.O js Browser Bow
+//H.O errors
+/*
+const myTimeout = setTimeout(newFunction, 500);
+function mewFunction(a){
+    for(let i=1; i<21; i=i+2){
+    console.log(`${a}*${i}=${i*a}`);
+}
+}
+newFunction(10);*/
+/*
+const clothing = ['shoes','shirts','socks','swealers'];
+
+console.log(clothing.length);
+*/
+//const clothing = ['shoes','shirts','socks','swealers'];
+
+//console.log(clothing.at(2));
+//copywithin
+/*
+const copycat = ['a','b','c','d','e','f','g']
+console.log(copycat.copyWithin(0,3,5))
+console.log(copycat.copyWithin(0,4))
+*/
+const tryeEvery = (currentValue) => currentValue <40;
+const array1 = [10,12,15,20,23,30,40,50];
+console.log(array1.every(tryeEvery));
+
+const tryeFill = [1,2,3,4,5,6,7,8,9,10];
+console.log(tryeFill.fill(0,2,5,));
+console.log(tryeFill.fill(6,7));
+console.log(tryeFill.fill(8));
+
+const tryeFilter = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+const result = tryeFilter.filter((word) => word.length >6);
+console.log(result);
+
+const tryeFind = [20,25,30,35,40,45,50,55,60,65,70];
+const pylam = tryeFind.find((konta) => konta > 30);
+console.log(pylam);
+
+const tryeFindIndex = [20,25,30,35,40,45,50,55,60,65,70];
+const array3 = tryeFindIndex.find((konta) => konta > 30);
+console.log(array3);
+
